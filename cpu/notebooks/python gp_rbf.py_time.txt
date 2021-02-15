@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 time in seconds: 127.11796975135803
+=======
+time in seconds: 67.3990204334259
+>>>>>>> 06b7c2d26fc9df9560b5fcd1f2be24b727442398
