@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz
 testing
 Time: 3.455s
@@ -11,5 +12,50 @@ Time: 3.407s
 Time: 3.409s
 Time: 3.405s
 Avarage: 3.411s
+=======
+<<<<<<< HEAD
+ AMD EPYC 7702P 64-Core Processor
+testing
+Time: 4.035s
+Time: 3.673s
+Time: 3.477s
+Time: 3.465s
+Time: 3.497s
+Time: 3.491s
+Time: 3.489s
+Time: 3.478s
+Time: 3.474s
+Time: 3.473s
+Avarage: 3.555s
+=======
+ Intel(R) Xeon(R) Silver 4110 CPU @ 2.10GHz
+testing
+<<<<<<< HEAD
+Time: 3.835s
+Time: 3.634s
+Time: 3.654s
+Time: 3.642s
+Time: 3.648s
+Time: 3.637s
+Time: 3.648s
+Time: 3.641s
+Time: 3.644s
+Time: 3.647s
+Avarage: 3.663s
+=======
+Time: 3.4s
+Time: 3.34s
+Time: 3.333s
+Time: 3.335s
+Time: 3.336s
+Time: 3.335s
+Time: 3.332s
+Time: 3.336s
+Time: 3.335s
+Time: 3.334s
+Avarage: 3.342s
+>>>>>>> 06b7c2d26fc9df9560b5fcd1f2be24b727442398
+>>>>>>> 70e1ba92ee237c661657e8c487f13dc8abe97838
+>>>>>>> e5c991bec74aa874b8437650d206c615c6afbe10
 Done
 
