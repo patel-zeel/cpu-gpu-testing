@@ -1,15 +1,15 @@
- Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz
+ Intel(R) Xeon(R) Silver 4110 CPU @ 2.10GHz
 testing
-Time: 3.443s
-Time: 3.327s
-Time: 3.328s
-Time: 3.325s
-Time: 3.326s
-Time: 3.332s
-Time: 3.327s
-Time: 3.328s
-Time: 3.325s
-Time: 3.326s
-Avarage: 3.339s
+Time: 3.835s
+Time: 3.634s
+Time: 3.654s
+Time: 3.642s
+Time: 3.648s
+Time: 3.637s
+Time: 3.648s
+Time: 3.641s
+Time: 3.644s
+Time: 3.647s
+Avarage: 3.663s
 Done
 
