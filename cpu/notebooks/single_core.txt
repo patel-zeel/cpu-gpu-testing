@@ -1,6 +1,14 @@
-Time: 3.958sTime: 3.89sTime: 3.915sTime: 3.906sTime: 3.9sTime: 3.877sTime: 3.913sTime: 3.884sTime: 3.879sTime: 3.902sAvarage: 3.902s
+testing
+Time: 3.469s
+Time: 3.372s
+Time: 3.38s
+Time: 3.374s
+Time: 3.381s
+Time: 3.372s
+Time: 3.378s
+Time: 3.371s
+Time: 3.381s
+Time: 3.372s
+Avarage: 3.385s
 Done
-Time: 3.629sTime: 3.454sTime: 3.452sTime: 3.453sTime: 3.454sTime: 3.454sTime: 3.454sTime: 3.456sTime: 3.455sTime: 3.454sAvarage: 3.472s
-Done
-Time: 3.459sTime: 3.376sTime: 3.364sTime: 3.376sTime: 3.362sTime: 3.377sTime: 3.363sTime: 3.376sTime: 3.364sTime: 3.375sAvarage: 3.379s
-Done
+

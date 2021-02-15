@@ -29,6 +29,9 @@ wiederholungen = int(wiederholungen)
 
 schnitt = 0
 
+with open('single_core.txt', 'w') as f:
+  print('testing',file=f)
+
 for a in range(0,wiederholungen):
 
   start = time.time()
@@ -46,10 +49,10 @@ for a in range(0,wiederholungen):
   dauer = round(dauer, 3)
   schnitt += dauer
   with open('single_core.txt','a') as f:
-    f.write('Time: ' + str(dauer) + 's')
+    print('Time: ' + str(dauer) + 's', file=f)
   print(dauer)
 
 schnitt = round(schnitt / wiederholungen, 3)
 with open('single_core.txt','a') as f:
-    f.write('Avarage: ' + str(schnitt) + 's\nDone\n')
+    print('Avarage: ' + str(schnitt) + 's\nDone\n', file=f)
 print('Avarage: ' + str(schnitt) + 's')
