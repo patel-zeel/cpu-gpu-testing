@@ -1,13 +1,1 @@
-<<<<<<< HEAD
-time in seconds: 91.5812304019928
-=======
-<<<<<<< HEAD
-time in seconds: 365.57473063468933
-=======
-<<<<<<< HEAD
-time in seconds: 127.11796975135803
-=======
-time in seconds: 67.3990204334259
->>>>>>> 06b7c2d26fc9df9560b5fcd1f2be24b727442398
->>>>>>> 70e1ba92ee237c661657e8c487f13dc8abe97838
->>>>>>> e5c991bec74aa874b8437650d206c615c6afbe10
+time in seconds: 89.70398044586182
