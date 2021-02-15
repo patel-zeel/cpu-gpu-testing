@@ -15,7 +15,9 @@ if "Linux" == platform.system():
         if line.strip():
             if line.rstrip('\n').startswith('model name'):
                 model_name = line.rstrip('\n').split(':')[1]
-                print(model_name)
+                with open('single_core.txt', 'w') as f:
+                    print(model_name, file=f)
+                    print(model_name)
                 break
 else:
   print('Your CPU is only shown automatic on Linux system.')
@@ -29,7 +31,7 @@ wiederholungen = int(wiederholungen)
 
 schnitt = 0
 
-with open('single_core.txt', 'w') as f:
+with open('single_core.txt', 'a') as f:
   print('testing',file=f)
 
 for a in range(0,wiederholungen):

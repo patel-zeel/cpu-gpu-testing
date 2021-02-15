@@ -1,14 +1,15 @@
+ Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz
 testing
-Time: 3.469s
-Time: 3.372s
-Time: 3.38s
+Time: 3.422s
+Time: 3.381s
+Time: 3.376s
+Time: 3.377s
+Time: 3.374s
+Time: 3.377s
+Time: 3.376s
+Time: 3.378s
 Time: 3.374s
 Time: 3.381s
-Time: 3.372s
-Time: 3.378s
-Time: 3.371s
-Time: 3.381s
-Time: 3.372s
-Avarage: 3.385s
+Avarage: 3.382s
 Done
 
