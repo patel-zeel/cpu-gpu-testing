@@ -4,8 +4,6 @@ cd ~/cpu-gpu-testing/cpu/notebooks
 python cpu_test.py
 jupyter nbconvert GP_RBF.ipynb --to python
 ipython GP_RBF.py
-cd ~/cpu-gpu-testing
-git add .
 
 ### GPU Test
 #echo "Running GPU test"

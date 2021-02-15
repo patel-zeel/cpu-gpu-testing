@@ -1,0 +1,2 @@
+Time: 3.958sTime: 3.89sTime: 3.915sTime: 3.906sTime: 3.9sTime: 3.877sTime: 3.913sTime: 3.884sTime: 3.879sTime: 3.902sAvarage: 3.902s
+Done

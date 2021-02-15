@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
+# In[2]:
 
 
 from IPython import get_ipython
@@ -53,8 +53,15 @@ workers = mp.Pool()
 init = time()
 workers.map(do_the_job, jobs)
 end = time()-init
+assert len(glob('../raw_results/GP_RBF/*')) == 840
 os.system('python -V > python_version.txt')
 with open(main_command+'_time.txt', 'w') as f:
     print('time in seconds:',end,file=f)
 print('Job finished in',end,'seconds')
+
+
+# In[3]:
+
+
+
 
