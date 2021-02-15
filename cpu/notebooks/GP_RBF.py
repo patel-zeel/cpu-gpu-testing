@@ -49,6 +49,9 @@ for file in glob('../data/common/*'):
     i +=1
 print('Appended')
 
+if not os.path.exists('../raw_results/GP_RBF/'):
+    os.makedirs('../raw_results/GP_RBF/')
+
 workers = mp.Pool()
 init = time()
 workers.map(do_the_job, jobs)
@@ -58,10 +61,4 @@ os.system('python -V > python_version.txt')
 with open(main_command+'_time.txt', 'w') as f:
     print('time in seconds:',end,file=f)
 print('Job finished in',end,'seconds')
-
-
-# In[3]:
-
-
-
 
