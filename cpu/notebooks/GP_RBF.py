@@ -58,6 +58,7 @@ workers.map(do_the_job, jobs)
 end = time()-init
 assert len(glob('../raw_results/GP_RBF/*')) == 840
 os.system('python -V > python_version.txt')
+os.system('lscpu > cpu_info.txt')
 with open(main_command+'_time.txt', 'w') as f:
     print('time in seconds:',end,file=f)
 print('Job finished in',end,'seconds')
