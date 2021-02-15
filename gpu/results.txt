@@ -1,0 +1,6 @@
+Time (s) to convolve 32x7x7x3 filter over random 100x100x100x3 images (batch x height x width x channel). Sum of ten runs.
+CPU (s):
+0.692529696971178
+GPU (s):
+0.061990920919924974
+GPU speedup over CPU: 11x

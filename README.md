@@ -1,1 +1,1 @@
-# cpu-gpu-testing
+# Ampere-CPU-GPU-Test
