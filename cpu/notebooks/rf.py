@@ -20,11 +20,6 @@ if compute:
     pred_y = Yscaler.inverse_transform(model.predict(sub_data['test_X']))
     rmse = np.sqrt(np.mean(np.square(sub_data['test_Y'].squeeze() - pred_y.squeeze())))
     pd.to_pickle({'rmse':rmse, 'test_y':sub_data['test_Y'].squeeze(),
-<<<<<<< HEAD
                   'pred_y':pred_y, 'model':model}, 
                  base_result_path+f_name)
     pass
-=======
-                  'pred_y':pred_y, 'lengthscales':model.kern.lengthscale.tolist(),'model':model}, 
-                 base_result_path+f_name)
->>>>>>> 7e65673614b5c5acee75efc3b97954fd4821bbd0
